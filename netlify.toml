@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build && npm run export"
+  command = "next build && next export"
   publish = "out"
-  environment = { NODE_VERSION = "16" } # Asegúrate de usar la versión que soporte Next.js si necesitas una específica.
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
