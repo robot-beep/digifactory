@@ -1,15 +1,22 @@
 import { Brand } from "@/types/brand";
 import Image from "next/image";
 import brandsData from "./brandsData";
+import SectionTitle from "../Common/SectionTitle";
 
 const Brands = () => {
   return (
     <section className="pt-16">
       <div className="container">
+      <SectionTitle
+          title="Nos adaptamos a tu tecnología"
+          paragraph=""
+          center
+          mb="80px"
+        />
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div
-              className="wow fadeInUp bg-gray-light dark:bg-gray-dark flex flex-wrap items-center justify-center rounded-sm px-0 py-0 sm:px-20 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]"
+              className="wow fadeInUp bg-gray-light dark:bg-gray-dark flex flex-wrap justify-items-center items-center justify-center rounded-sm px-0 py-0 sm:px-20 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]"
               data-wow-delay=".1s"
             >
               {brandsData.map((brand) => (
@@ -31,10 +38,10 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
   return (
     <div className="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]">
       <a
-        href={href}
+        
         target="_blank"
         rel="nofollow noreferrer"
-        className="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+        className="w-10 h-10  relative opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
       >
         <Image src={image} alt={name} fill />
       </a>

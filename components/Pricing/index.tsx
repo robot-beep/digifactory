@@ -12,12 +12,12 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Precios simples y transparentes"
-          paragraph="Prototipamos tu idea gratis, y si te gusta el resultado, trabajamos juntos para llevarlo a producción con un precio fijo por resultados."
+          paragraph="Prototipamos tu idea gratis, y si te gusta el resultado, trabajamos juntos para llevarlo a producción con un precio fijo."
           center
           width="665px"
         />
 
-        <div className=" flex grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+        <div className=" grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
           <PricingBox
             packageName="Prototipado"
             price={isMonthly ? "0" : "120"}
@@ -31,14 +31,25 @@ const Pricing = () => {
           </PricingBox>
           <PricingBox
             packageName="Landing Page"
-            price={isMonthly ? "150.000" : ""}
+            price={isMonthly ? "150.000 + iva" : ""}
             duration={isMonthly ? "" : "yr"}
-            subtitle="Landing Page, Blog, E-commerce, Portfolio, etc."
+            subtitle="Landing Page, Blog, E-commerce, Portfolio, etc. (precio desde)"
           >
             <OfferList text="Páginas personalizadas" status="active" />
             <OfferList text="Diseños únicos" status="active" />
-            <OfferList text="Optimización SEO" status="active" />
+            <OfferList text="gestión de datos" status="active" />
             <OfferList text="Soporte 24/7" status="active" />
+          </PricingBox>
+          <PricingBox
+            packageName="Desarrollo de plataformas"
+            price={isMonthly ? "1.000.000" : ""}
+            duration={isMonthly ? "" : "yr"}
+            subtitle="Plataformas de gestión, CRM, ERP, IOT etc. (precio desde)"
+          >
+            <OfferList text="Plataformas personalizadas" status="active" />
+            <OfferList text="Soluciones IA" status="active" />
+            <OfferList text="Productos IOT" status="active" />
+            <OfferList text="Infraestructura cloud" status="active" />
           </PricingBox>
             
           
