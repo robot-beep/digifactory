@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "Aplicaciones Mobile",
     paragraph:
-      "El presente está en nuestros telefonos, por eso desarrollamos aplicaciones móviles para Android y iOS, con tecnologías modernas y escalables.",
+      "El presente está en nuestros teléfonos, por eso desarrollamos aplicaciones móviles para Android y iOS, con tecnologías modernas y escalables.",
   },
   {
     id: 1,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "Nos integramos",
     paragraph:
-      "¿Ya tienes un sistema funcionando? Nosotros nos integramos a tu sistema actual, para que puedas seguir trabajando sin problemas. Mejora tu sistema o conectalo con uno nuevo.",
+      "¿Ya tienes un sistéma funcionando? Nosotros nos integramos a tu sistema actual, para que puedas seguir trabajando sin problemas.",
   },
   
   {
@@ -60,7 +60,7 @@ const featuresData: Feature[] = [
     ),
     title: "Prototipamos Gratis",
     paragraph:
-      "Antes de invertir en tu idea, probemosla. Te ofrecemos un prototipo de tu idea sin costo alguno. Solo tienes que contactarnos y contarnos tu idea.",
+      "Antes de invertir en tu idea, probémosla. Te ofrecemos un prototipo de tu idea sin costo alguno. Solo tienes que contactarnos y contarnos tu idea.",
   },
   {
     id: 1,
@@ -75,7 +75,7 @@ const featuresData: Feature[] = [
     ),
     title: "Integramos la IA a tu negocio",
     paragraph:
-      "Procesos aburridos, soporte al cliente, análisis de datos, entre otros, pueden ser automatizados con Inteligencia Artificial. Nosotros te ayudamos a integrarla a tu negocio. Pruebalo y luego paga.",
+      "Procesos aburridos, soporte al cliente, análisis de datos, entre otros, pueden ser automatizados con Inteligencia Artificial. Nosotros te ayudamos a integrarla a tu negocio. Pruébalo y luego paga.",
   },
   {
     id: 1,

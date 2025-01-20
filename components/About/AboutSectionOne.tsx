@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Entendemos tu problema, desarrollamos la solución"
-                paragraph="Creemos en no atornillar con un martillo, primero entendamos tu problema, puede que la solución sea más simple de lo anticipado. Nuestro objetivo es hacer más facil tu vida, y que vuelvas con nosotros en el futuro"
+                paragraph="Creemos en no atornillar con un martillo, primero entendamos tu problema, puede que la solución sea más simple de lo anticipado. Nuestro objetivo es hacer más facil tu vida, y que vuelvas con nosotros en el futuro."
                 mb="44px"
               />
 

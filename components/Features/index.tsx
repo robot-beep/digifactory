@@ -8,7 +8,7 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Desarrolla tus ideas con seguridad"
+            title="Implementa tus ideas con seguridad"
             paragraph="Nuestro objetivo es innovar y crear soluciones tecnológicas que se adapten a tus necesidades."
             center
           />

@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="Quienes Somos"
-        description="Somos Pedro López y Maximiliano Espindola, y juntos formamos un equipo de trabajo que se dedica a la creación de sitios web y aplicaciones móviles.
+        description="Somos Pedro López y Maximiliano Espíndola, y juntos formamos un equipo de trabajo que se dedica a la creación de sitios web y aplicaciones móviles.
         Nuestro compromiso es simple, la confianza es un camino de dos vías, si confías en nosotros, nosotros confiamos en ti, y respetaremos ese compromiso hasta el final."
       />
       <AboutSectionOne />
